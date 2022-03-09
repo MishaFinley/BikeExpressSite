@@ -1,0 +1,35 @@
+html(class="html2")
+    head
+        title="Finley Bikes"
+        script(src="/app.js")
+        link(href="/css/main.css", rel="stylesheet", type="text/css")
+        
+    body
+        div(class="main")
+            nav(class="nav")
+                a(href="/")="Home"
+                a(href="/items")="Parts"
+                a(href="/order")="Purchase"
+                if(isAdmin)
+                    a(href="/new")="New Item"
+                if(username)
+                    a(href="/logout")="Logout"
+                else
+                    a(href="/login")="Login"
+                    a(href="/register")="Register"
+            img(class="logo", src="/images/newBike.png")
+            h1="Please Setup a New Account"
+            form(action="/register", method="Post")
+                div
+                    label="Name:"
+                    input(type="text", name="name")
+                div
+                    label="Email:"
+                    input(type="text", name="email")
+                div
+                    label="Username:"
+                    input(type="text", name="username")
+                div
+                    label="Password:"
+                    input(type="password", name="password")
+                input(type="submit", value="register")

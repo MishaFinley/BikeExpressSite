@@ -1,0 +1,21 @@
+{
+  "name": "mishafinley_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4",
+    "pug": "^2.0.4",
+    "session": "^0.1.0"
+  }
+}

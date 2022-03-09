@@ -1,0 +1,8 @@
+{"_id":{"$numberInt":"1"},"manufacturer":"SRAM","model":"APEX","weight":{"$numberInt":"2419"},"price":{"$numberInt":"400"},"imageUrl":"/images/gsSRAM.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"2"},"manufacturer":"SRAM","model":"RIVAL","weight":{"$numberInt":"2377"},"price":{"$numberInt":"600"},"imageUrl":"/images/gsSRAM.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"3"},"manufacturer":"SRAM","model":"RED","weight":{"$numberInt":"1741"},"price":{"$numberInt":"1900"},"imageUrl":"/images/gsSRAM.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"4"},"manufacturer":"Campagnolo","model":"Centaur","weight":{"$numberInt":"2453"},"price":{"$numberInt":"600"},"imageUrl":"/images/gsCamp.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"5"},"manufacturer":"Campagnolo","model":"Potenza","weight":{"$numberInt":"2412"},"price":{"$numberInt":"700"},"imageUrl":"/images/gsCamp.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"6"},"manufacturer":"Campagnolo","model":"Record","weight":{"$numberInt":"2039"},"price":{"$numberInt":"2800"},"imageUrl":"/images/gsCamp.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"7"},"manufacturer":"Campagnolo","model":"EPS","weight":{"$numberInt":"2178"},"price":{"$numberInt":"3500"},"imageUrl":"/images/gsCamp.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"8"},"manufacturer":"Finley","model":"Selah","weight":{"$numberInt":"1050"},"price":{"$numberInt":"3400"},"imageUrl":"/images/gsFinley.png","__v":{"$numberInt":"0"}}

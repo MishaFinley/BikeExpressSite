@@ -1,0 +1,8 @@
+{"_id":{"$numberInt":"1"},"logo":"Blonde-Chest","manufacturer":"Finley","price":{"$numberInt":"150"},"imageUrl":"/images/shirtBlonde.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"2"},"logo":"SRAM-Chest","manufacturer":"Finley","price":{"$numberInt":"150"},"imageUrl":"/images/shirtSRAM.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"3"},"logo":"Blonde-Arm","manufacturer":"Finley","price":{"$numberInt":"120"},"imageUrl":"/images/shirtArmBlonde.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"4"},"logo":"SRAM-Arm","manufacturer":"Finley","price":{"$numberInt":"120"},"imageUrl":"/images/shirtArmSRAM.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"5"},"logo":"Color","manufacturer":"Finley","price":{"$numberInt":"120"},"imageUrl":"/images/shirtLogo.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"6"},"logo":"Blonde-Color","manufacturer":"Finley","price":{"$numberInt":"120"},"imageUrl":"/images/shirtLogoBlonde.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"7"},"logo":"SRAM-Color","manufacturer":"Finley","price":{"$numberInt":"120"},"imageUrl":"/images/shirtLogoSRAM.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"8"},"logo":"Blue","manufacturer":"Finley","price":{"$numberInt":"120"},"imageUrl":"/images/shirtBlue.png","__v":{"$numberInt":"0"}}

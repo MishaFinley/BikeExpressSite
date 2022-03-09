@@ -1,0 +1,76 @@
+html(class="html2")
+    head
+        title="Finley Bikes"
+        script(src="/app.js")
+        link(href="/css/main.css", rel="stylesheet", type="text/css")
+        
+    body
+        div(class="main")
+            nav(class="nav")
+                a(href="/")="Home"
+                a(href="/items")="Parts"
+                a(href="/order")="Purchase"
+                if(isAdmin)
+                    a(href="/new")="New Item"
+                if(username)
+                    a(href="/logout")="Logout"
+                else
+                    a(href="/login")="Login"
+                    a(href="/register")="Register"
+            img(class="logo", src="/images/newBike.png")
+            h1=title
+            br
+            form(id="frame", action="/create/frame")
+                h2=title1
+                label="Year:"
+                input(name="year", type="text")
+                br
+                label="Manufacturer:"
+                input(name="manufacturer", type="text")
+                br
+                label="Model:"
+                input(name="model", type="text")
+                br
+                label="Price:"
+                input(name="price", type="text")
+                br
+                label="ImageUrl:"
+                input(name="imageUrl", type="text")
+                br
+                input(type="submit")
+            br
+            form(id="groupset", action="/create/groupset")
+                h2=title2
+                label="Manufacturer:"
+                input(name="manufacturer", type="text")
+                br
+                label="Model:"
+                input(name="model", type="text")
+                br
+                label="Weight:"
+                input(name="weight", type="text")
+                br
+                label="Price:"
+                input(name="price", type="text")
+                br
+                label="ImageUrl:"
+                input(name="imageUrl", type="text")
+                br
+                input(type="submit")
+            br
+            form(id="shirt", action="/create/shirt")
+                h2=title3
+                label="Logo:"
+                input(name="logo", type="text")
+                br
+                label="Manufacturer:"
+                input(name="manufacturer", type="text")
+                br
+                label="Price:"
+                input(name="price", type="text")
+                br
+                label="ImageUrl:"
+                input(name="imageUrl", type="text")
+                br
+                input(type="submit")
+            footer="Finley Bikes©"

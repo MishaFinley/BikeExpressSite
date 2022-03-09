@@ -1,0 +1,8 @@
+{"_id":{"$numberInt":"1"},"year":{"$numberInt":"1983"},"manufacturer":"Nishiki","model":"Cresta","price":{"$numberInt":"550"},"imageUrl":"/images/blueBike.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"2"},"year":{"$numberInt":"1984"},"manufacturer":"Trek","model":"720","price":{"$numberInt":"800"},"imageUrl":"/images/redBike.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"3"},"year":{"$numberInt":"1993"},"manufacturer":"Pinarello","model":"Crit","price":{"$numberInt":"2000"},"imageUrl":"/images/whiteBike.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"4"},"year":{"$numberInt":"1984"},"manufacturer":"Bianchi","model":"Nuevo","price":{"$numberInt":"550"},"imageUrl":"/images/bianchi.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"5"},"year":{"$numberInt":"1980"},"manufacturer":"Arabesque","model":"Colnago","price":{"$numberInt":"4000"},"imageUrl":"/images/goldBike.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"6"},"year":{"$numberInt":"1980"},"manufacturer":"Diamente","model":"De Rosa","price":{"$numberInt":"4000"},"imageUrl":"/images/bike.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"7"},"year":{"$numberInt":"2018"},"manufacturer":"Supreme Santa Cruz","model":"Chameleon","price":{"$numberInt":"10000"},"imageUrl":"/images/supreme.png","__v":{"$numberInt":"0"}}
+{"_id":{"$numberInt":"8"},"year":{"$numberInt":"2019"},"manufacturer":"Finley","model":"Presto","price":{"$numberInt":"55000"},"imageUrl":"/images/pinkBike.png","__v":{"$numberInt":"0"}}

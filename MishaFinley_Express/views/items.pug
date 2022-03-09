@@ -1,0 +1,54 @@
+html(class="html2")
+    head
+        title="Finley Bikes"
+        script(src="/app.js")
+        link(href="/css/main.css", rel="stylesheet", type="text/css")
+        
+        body
+            div(class="main")
+                nav(class="nav")
+                    a(href="/")="Home"
+                    a(href="/items")="Parts"
+                    a(href="/order")="Purchase"
+                    if(isAdmin)
+                        a(href="/new")="New Item"
+                    if(username)
+                        a(href="/logout")="Logout"
+                    else
+                        a(href="/login")="Login"
+                        a(href="/register")="Register"
+                img(class="logo", src="/images/newBike.png")
+                h1(class="title")=title1
+                for frame in frames
+                    div(class="frames")
+                        div(class="image")
+                            a( class="imageLink", href="/frame/detail/"+frame._id)
+                                img(src=frame.imageUrl)
+                                div(class="frameDetails")
+                                    div=frame.year + " " + frame.manufacturer + " " + frame.model
+                                    div="$" + frame.price
+                                    div="___________________________________________"
+                h1(class="title")=title2
+                for groupSet in groupSets
+                    div(class="groupSets")
+                        div(class="image")
+                            a( class="imageLink", href="/groupset/detail/"+groupSet._id)                            
+                                img(src=groupSet.imageUrl)
+                                div(class="groupSetDetails")
+                                    div=groupSet.manufacturer + " " + groupSet.model + " (" + groupSet.weight + "g)"
+                                    div="$" + groupSet.price
+                                    div="___________________________________________"
+                h1(class="title")=title3
+                for shirt in shirts
+                    div(class="shirts")
+                        div(class="image")
+                            a( class="imageLink", href="/shirt/detail/"+shirt._id)  
+                                img(src=shirt.imageUrl)
+                                div(class="shirtDetails")
+                                    div=shirt.manufacturer + " " + shirt.logo
+                                    div="$" + shirt.price
+                                    div="___________________________________________"
+                footer="Finley Bikes©"
+                            
+
+               

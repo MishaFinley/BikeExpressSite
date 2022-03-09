@@ -1,0 +1,200 @@
+{
+    "frames":[
+        {
+            "id": 1,
+            "year": 1983,
+            "manufacturer": "Nishiki",
+            "model": "Cresta",
+            "price": 550,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637067651105161246/blueBike.png"
+        },
+        {
+            "id": 2,
+            "year": 1984,
+            "manufacturer": "Trek",
+            "model": "720",
+            "price": 800,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637069013062516746/redBike.png"
+        },
+        {
+            "id": 3,
+            "year": 1993,
+            "manufacturer": "Pinarello",
+            "model": "Crit",
+            "price": 2000,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637069038761148461/whiteBike.png"
+        },
+        {
+            "id": 4,
+            "year": 1984,
+            "manufacturer": "Bianchi",
+            "model": "Nuevo",
+            "price": 550,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637128913231020042/bianchi.png"
+        },
+        {
+            "id": 5,
+            "year": 1980,
+            "manufacturer": "Arabesque",
+            "model": "Colnago",
+            "price": 4000,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637128157253861396/goldBike.png"
+        },
+        {
+            "id": 6,
+            "year": 1980,
+            "manufacturer": "Diamente",
+            "model": "De Rosa",
+            "price": 4000,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637063383128080384/bike.png"
+        },
+        {
+            "id": 7,
+            "year": 2018,
+            "manufacturer": "Supreme Santa Cruz",
+            "model": "Chameleon",
+            "price": 10000,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637128236672876564/supreme.png"
+        },
+        {
+            "id": 8,
+            "year": 2019,
+            "manufacturer": "Finley",
+            "model": "Presto",
+            "price": 55000,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637128212224409600/pinkBike.png"
+        }
+    ],
+    "groupSets":[
+        {
+            "id": 1,
+            "manufacturer":"SRAM",
+            "model":"APEX",
+            "weight": 2419,
+            "price": 400,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353638339280919/gsSRAM.png"
+
+        },
+        {
+            "id": 2,
+            "manufacturer":"SRAM",
+            "model":"RIVAL",
+            "weight": 2377,
+            "price": 600,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353638339280919/gsSRAM.png"
+
+        },
+        {
+            "id": 3,
+            "manufacturer":"SRAM",
+            "model":"RED",
+            "weight": 1741,
+            "price": 1900,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353638339280919/gsSRAM.png"
+
+        },
+        {
+            "id": 4,
+            "manufacturer":"Campagnolo",
+            "model":"Centaur",
+            "weight": 2453,
+            "price": 600,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353627798994962/gsCamp.png"
+
+        },
+        {
+            "id": 5,
+            "manufacturer":"Campagnolo",
+            "model":"Potenza",
+            "weight": 2412,
+            "price": 700,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353627798994962/gsCamp.png"
+
+        },
+        {
+            "id": 6,
+            "manufacturer":"Campagnolo",
+            "model":"Record",
+            "weight": 2039,
+            "price": 2800,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353627798994962/gsCamp.png"
+
+        },
+        {
+            "id": 7,
+            "manufacturer":"Campagnolo",
+            "model":"EPS",
+            "weight": 2178,
+            "price": 3500,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353627798994962/gsCamp.png"
+
+        },
+        {
+            "id": 8,
+            "manufacturer":"Finley",
+            "model":"Selah",
+            "weight": 1050,
+            "price": 3400,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637353631506759680/gsFinley.png"
+
+        }
+    ],
+    "shirts":[
+        {
+            "id": 1,
+            "logo": "Blonde-Chest",
+            "manufacturer": "Finley",
+            "price": 150,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368327072907284/shirtBlonde.png"
+        },
+        {
+            "id": 2,
+            "logo": "SRAM-Chest",
+            "manufacturer": "Finley",
+            "price": 150,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368348748939306/shirtSRAM.png"
+        },
+        {
+            "id": 3,
+            "logo": "Blonde-Arm",
+            "manufacturer": "Finley",
+            "price": 120,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368318189371402/shirtArmBlonde.png"
+        },
+        {
+            "id": 4,
+            "logo": "SRAM-Arm",
+            "manufacturer": "Finley",
+            "price": 120,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368320936378419/shirtArmSRAM.png"
+        },
+        {
+            "id": 5,
+            "logo": "Color",
+            "manufacturer": "Finley",
+            "price": 120,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368335037890560/shirtLogo.png"
+        },
+        {
+            "id": 6,
+            "logo": "Blonde-Color",
+            "manufacturer": "Finley",
+            "price": 120,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368339072811008/shirtLogoBlonde.png"
+        },
+        {
+            "id": 7,
+            "logo": "SRAM-Color",
+            "manufacturer": "Finley",
+            "price": 120,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368343774494726/shirtLogoSRAM.png"
+        },
+        {
+            "id": 8,
+            "logo": "Blue",
+            "manufacturer": "Finley",
+            "price": 120,
+            "imageUrl": "https://cdn.discordapp.com/attachments/578401655326769167/637368330487070739/shirtBlue.png"
+        }
+    ]
+}

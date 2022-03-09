@@ -1,0 +1,72 @@
+html(class="html2")
+    head
+        title="Finley Bikes"
+        script(src="/app.js")
+        link(href="/css/main.css", rel="stylesheet", type="text/css")
+        
+    body
+        div(class="main")
+            nav(class="nav")
+                a(href="/")="Home"
+                a(href="/items")="Parts"
+                a(href="/order")="Purchase"
+                if(isAdmin)
+                    a(href="/new")="New Item"
+                if(username)
+                    a(href="/logout")="Logout"
+                else
+                    a(href="/login")="Login"
+                    a(href="/register")="Register"
+            img(class="logo", src="/images/newBike.png")
+            h1=title
+            
+            div(id="form")
+                form(id="form", action = "/purchased")
+            
+                    
+                    select       
+                        option FRAMES
+                        each frame in frames
+                            -var selectBool = false
+                            if frameId
+                                if frameId == frame.id
+                                    -selectBool = true
+                            option(selected = selectBool) #{frame.year + " " + frame.manufacturer + " " + frame.model + "  $" + frame.price}
+                    br       
+                    select
+                        option GROUPSETS
+                        each groupSet in groupSets
+                            -var selectBool = false
+                            if groupsetId
+                                if groupsetId == groupSet.id
+                                    -selectBool = true
+                            option(selected = selectBool) #{groupSet.manufacturer + " " + groupSet.model + " (" + groupSet.weight + "g) $" + groupSet.price}
+                    br
+                    select
+                        option SHIRTS
+                        each shirt in shirts
+                            -var selectBool = false
+                            if shirtId
+                                if shirtId == shirt.id
+                                    -selectBool = true
+                            option(selected = selectBool) #{shirt.manufacturer + " " + shirt.logo + " $" + shirt.price}
+                    br
+                    div
+                    label="Full Name: "
+                    input(type="text")
+                    br
+                    br
+                    span SHIPPING ADDRESS
+                    br
+                    label="City: "
+                    input(type="text")
+                    br
+                    label="State: "
+                    input(type="text")
+                    br
+                    label="Postal Code: "
+                    input(type="text")
+                    br
+                    br
+                    input(type="submit")
+                footer="Finley Bikes©"

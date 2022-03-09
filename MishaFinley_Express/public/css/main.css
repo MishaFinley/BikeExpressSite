@@ -1,0 +1,107 @@
+html{
+    
+    /* background-color: rgb(146, 77, 77);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-variant: small-caps; */
+    background-image: url("../images/coastB.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0);
+}
+.html2{
+    background-color: #583636;
+
+}
+body{
+    /* height:200px;
+    margin:-10px; */
+    
+    
+    background-color: rgba(58, 36, 36, 0);
+    
+}
+
+.main{
+    background-color: rgba(77, 95, 146, 0.849);
+    /* background-color: rgba(146, 77, 77, 0.849); */
+    /* background-color: blue; */
+    color: whitesmoke;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 22px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+.paragraph{
+    border: 10px solid rgb(224, 169, 178);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.frameDetails{
+    font-size: 20px;
+}
+.form{
+    width: 500px;
+    clear: both;
+}
+form{
+    display: inline-block;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+form select{
+    text-align: left;
+    min-width: 350px;
+    /* clear: left; */
+}
+form input{
+    min-width: 200px;
+}
+footer{
+    font-size: 10px;
+    margin: 10px;
+}
+.logo{
+    padding: 20px;
+}
+.detailImage{
+    height: auto;
+    width: 90%;
+}
+nav{
+    position: sticky;
+    top: 8;
+    z-index: 1;
+    
+}
+a{
+    /* position: sticky; */
+    position: sticky;
+    top: 0;
+    background-color: rgb(212, 176, 182);
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    display: inline;
+    padding: 8px;
+    
+}
+.imageLink{
+    background-color: rgba(0, 0, 0, 0);
+}
+.imageLink:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+    background-color: rgb(90, 72, 72);
+    color: white;
+}

@@ -1,0 +1,26 @@
+html
+    head
+        title="Finley Bikes"
+        script(src="/app.js")
+        link(href="/css/main.css", rel="stylesheet", type="text/css")
+        
+        body
+            //-img(src="/public/images/coast.png")
+            div(class="main")
+                nav(class="nav")
+                    a(href="/")="Home"
+                    a(href="/items")="Parts"
+                    a(href="/order")="Purchase"
+                    if(isAdmin)
+                        a(href="/new")="New Item"
+                    if(username)
+                        a(href="/logout")="Logout"
+                    else
+                        a(href="/login")="Login"
+                        a(href="/register")="Register"
+                //- h1(class="title")=title
+                img(class="logo", src="/images/newBike.png")
+                div(class="paragraph")
+                    p="Finley's Bikes is a bike shop operating on the West Coastline since 1983"
+                    p="Come look at our countless options"
+                footer="Finley Bikes©"

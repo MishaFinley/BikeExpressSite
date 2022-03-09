@@ -1,0 +1,61 @@
+html(class="html2")
+    head
+        title="Finley Bikes"
+        script(src="/app.js")
+        link(href="/css/main.css", rel="stylesheet", type="text/css")
+        
+        body
+            div(class="main")
+                nav(class="nav")
+                    a(href="/")="Home"
+                    a(href="/items")="Parts"
+                    a(href="/order")="Purchase"
+                    if(isAdmin)
+                        a(href="/new")="New Item"
+                    if(username)
+                        a(href="/logout")="Logout"
+                    else
+                        a(href="/login")="Login"
+                        a(href="/register")="Register"
+                img(class="logo", src="/images/newBike.png")
+                if frame
+                    div(class="frames")
+                        div(class="image")    
+                            img(class = "detailImage" src=frame.imageUrl)
+                        div(class="frameDetails")
+                            div=frame.year + " " + frame.manufacturer + " " + frame.model
+                            div="$" + frame.price
+                            div
+                                p The #{frame.manufacturer} #{frame.model} was one of the best frames of #{frame.year}.
+                                p Perfect for long touring rides, or everyday commuting.
+                                p Given 5 stars by the NBRA, this bike is used far and wide
+                                p and was an instant collectors item at it's release
+                            a(href="/order/frame/" + frame.id)="BUY NOW"
+                if groupset
+                    div(class="groupsets")
+                        div(class="image")
+                            img(class = "detailImage", src=groupset.imageUrl)
+                        div(class="frameDetails")
+                            div=groupset.manufacturer + " " + groupset.model + " (" + groupset.weight + "g)"
+                            div="$" + groupset.price
+                            div
+                                p The #{groupset.manufacturer} #{groupset.model} is one of the most
+                                p impeccable group sets ever designed to fit a bike. Being recognized as
+                                p America's Favorite Group Set when it came out. It still to this day outperforms
+                                p nearly every other set on the market
+                            a(href="/order/groupset/" + groupset.id)="BUY NOW"
+                if shirt
+                    div(class="shirts")
+                        div(class="image")
+                            img(class = "detailImage", src=shirt.imageUrl)
+                        div(class="shirtDetails")
+                            div=shirt.manufacturer + " " + shirt.logo
+                            div="$" + shirt.price
+                            div
+                                p 100% Cotton
+                                p made in Italy
+                                p Sizes: xs, s, m, l, xl, xxl
+                            a(href="/order/shirt/" + shirt.id)="BUY NOW"
+            footer="Finley Bikes©"
+                        
+                            
